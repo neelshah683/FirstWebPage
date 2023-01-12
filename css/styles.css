@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-color: white;
+
+}
+h1{
+    font-size: 5rem;
+    width: 50%;
+    margin: 10rem auto 0 auto;
+    margin-top: 2rem;
+    color: #187498;
+    font-family: 'Sacramento', cursive;
+}
+h2,h3{
+    color: #2DCDDF;
+}
+p{
+    line-height: 2;
+}
+.skill-row{
+    width: 50%;
+    margin: 40px auto 100px auto;
+    text-align: left;
+}
+.first{
+    width: 15rem;
+    float: left;
+    margin-right: 30px;
+    border-radius: 2rem;
+}
+/* .first-row{
+    clear: left;
+}
+.second-row{
+    clear: right;
+} */
+.second{
+    width: 12rem;
+    float: right;
+    margin-left: 30px;
+    border-radius: 5rem;
+}
+.topContainer{
+    position: relative;
+    padding: 150px;
+    background-color: #66BFBF;
+}
+.web{
+    text-decoration: underline;
+    font-weight: normal;
+    color:#187498;
+}
+.skills{
+    padding-top: 25px;
+}
+#web{
+    font-size: 2.5rem;
+    font-weight: normal;
+    color:  #187498;
+}
+hr{
+    margin-top: 5rem;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 7px;
+    color: blue;
+    width: 5%;
+}
+.btn {     
+    text-decoration: none;
+    font-size: 2rem;
+    color: blueviolet;
+    border-radius: 2rem;
+    padding: 10px 20px 10px 20px;
+    width:2rem;
+    font-family: monospace, cursive;
+    font-weight: bold;
+    font-style: normal;
+    background-image: linear-gradient(to right, lightblue, lightskyblue);
+}
+.btn:hover {
+    background-image: linear-gradient(to right, lightskyblue, violet);
+}
+
+p{
+    padding: 0;
+    margin-top: 25px;
+}
+.bottom-container{
+    margin: 70px auto 0px;
+    background-color: #66BFBF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.bottom-container p{
+    margin-bottom: 0;
+}
+.copyright{
+    color: yellow;
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: rgb(135, 146, 250);
+    color: blue;
+    padding: 20px;
+    border-radius: 3rem;
+}
+.top-cloud{
+    position: absolute;
+    left: 62%;
+    bottom: 85%;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 32%;
+}
+.mountain{
+    margin-left: 5%;
+}
+.profile img{
+    width: 20%;
+    border-radius: 100%
+}
+.contact-me{
+    margin-top: 5rem;
+    line-height: 2.5;
+}
